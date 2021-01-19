@@ -10,6 +10,8 @@ import {
 import Rectangle from './components/Rectangle/Rectangle';
 import Home from './components/Home/Home';
 import NumberSplit from './components/NumberSplit/NumberSplit';
+import SmallestLargestNum from './components/SmallestLargestNum/SmallestLargestNum';
+import TriangleNumber from './components/TriangleNumber/TriangleNumber';
 
 function App() {
   return (
@@ -26,6 +28,14 @@ function App() {
 
           <Route path="/numberSplit">
             <NumberSplit></NumberSplit>
+          </Route>
+
+          <Route path="/smallLarge">
+            <SmallestLargestNum></SmallestLargestNum>
+          </Route>
+
+          <Route path="/numberSplit">
+            <TriangleNumber></TriangleNumber>
           </Route>
         </Switch>
       </Router>
