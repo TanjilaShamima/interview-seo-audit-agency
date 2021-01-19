@@ -1,0 +1,31 @@
+.main-rectangle{
+    height : 600px;
+    
+}
+.rectangle1 {
+    height : 400px;
+    width : 600px;
+    border : 1px solid red;
+    
+}
+
+.rectangle2 {
+    overflow : hidden;
+    height : 300px;
+    width : 400px;
+    border : 1px solid blue;
+    
+}
+
+.rectangle3 {
+    height : 100px;
+    width : 200px;
+    border : 1px solid blue;
+}
+
+
+
+.rectangle1:hover .rectangle3{
+   margin-left : 40%;
+
+}
